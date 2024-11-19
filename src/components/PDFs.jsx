@@ -17,7 +17,7 @@ const Pdfs = ({ onLogout })  => {
       <Navbar onLogout={onLogout} />
 
       <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-semibold mb-4">Bienvenido al Dashboard</h1>
+      <h1 className="text-3xl font-semibold mb-4">Tus PDFs</h1>
 
         <p className="text-lg mb-4">Aquí puedes gestionar tus apuntes y ver tus archivos PDF subidos.</p>
         {/* Componente de carga de PDF */}
