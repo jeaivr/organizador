@@ -15,7 +15,7 @@ const Pdfs = ({ onLogout })  => {
     <div className="min-h-screen bg-gray-100">
       {/* Navbar recibe onLogout */}
       <Navbar onLogout={onLogout} />
-
+      <div className="container mx-auto p-6 mt-16"></div>
       <div className="container mx-auto p-6">
       <h1 className="text-3xl font-semibold mb-4">Tus PDFs</h1>
 
