@@ -1,7 +1,7 @@
 // Importa las funciones que necesitas desde Firebase SDK
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';  // Importamos la autenticación
-
+import { getStorage } from 'firebase/storage'; // Importar Firebase Storage
 // Configuración de tu app de Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyA83LYlAZc9NXQNyOWr2U3kiooAlBiRj4M",
@@ -18,6 +18,7 @@ const app = initializeApp(firebaseConfig);
 
 // Inicializa la autenticación
 const auth = getAuth(app);
+const storage = getStorage(app);
 
 // Exporta la instancia de autenticación y la función para login
-export { auth, signInWithEmailAndPassword };
+export { auth, storage, signInWithEmailAndPassword };
