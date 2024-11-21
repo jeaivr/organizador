@@ -12,12 +12,6 @@ const Navbar = ({ onLogout }) => {
         >
           Dashboard
         </Link>
-        <Link
-          to="/pdfs"
-          className="hover:text-gray-200 transition duration-200"
-        >
-          PDFs
-        </Link>
       </div>
       <button
         onClick={onLogout}

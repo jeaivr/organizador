@@ -6,34 +6,8 @@ const Dashboard = ({ onLogout }) => {
     <div className="min-h-screen bg-gray-100">
       {/* Navbar recibe onLogout */}
       <Navbar onLogout={onLogout} />
-      <div className="container mx-auto p-6 mt-16"></div>
-      <div className="container mx-auto p-6">
+      <div className="container mx-auto p-6 mt-16">
         <h1 className="text-3xl font-semibold mb-4">Bienvenido al Dashboard</h1>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
         <p className="text-lg mb-4">Este es tu organizador de estudio</p>
       </div>
     </div>

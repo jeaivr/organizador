@@ -4,13 +4,12 @@ import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';  // Importa
 import { getStorage } from 'firebase/storage'; // Importar Firebase Storage
 // Configuración de tu app de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyA83LYlAZc9NXQNyOWr2U3kiooAlBiRj4M",
-  authDomain: "org-jeaivr.firebaseapp.com",
-  projectId: "org-jeaivr",
-  storageBucket: "org-jeaivr.firebasestorage.app",
-  messagingSenderId: "946975264027",
-  appId: "1:946975264027:web:838b4d89f7b28c877e97be",
-  measurementId: "G-BXEG8XD8HE"
+  apiKey: "AIzaSyAEhN33bldr7Xj6VmVTViF2S1OjoSV5HH8",
+  authDomain: "jeaivr.firebaseapp.com",
+  projectId: "jeaivr",
+  storageBucket: "jeaivr.firebasestorage.app",
+  messagingSenderId: "366913848873",
+  appId: "1:366913848873:web:d965b0ac277af95eabbe38"
 };
 
 // Inicializa Firebase
