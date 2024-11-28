@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
+import Sport from './components/Sport';
+import Study from './components/Study';
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -42,6 +44,8 @@ const App = () => {
           <Routes>
             {/* Pasar handleLogout como prop al Dashboard */}
             <Route path="/" element={<Dashboard onLogout={handleLogout} />} />
+            <Route path="/deporte" element={<Sport onLogout={handleLogout} />} />
+            <Route path="/estudio" element={<Study onLogout={handleLogout} />} />
           </Routes>
         ) : (
           <Login onLogin={handleLogin} />
