@@ -11,7 +11,7 @@ const Sport = ({ onLogout }) => {
       <Navbar onLogout={onLogout} />
       <div className="container mx-auto p-6 mt-16">
         <h1 className="text-3xl font-semibold mb-4">Deporte</h1>
-        <p className="text-lg mb-4">Este es tu organizador de deportes</p>
+        <p className="text-lg mb-4">Este es tu organizador de deporte</p>
         <iframe
             title="sport"
             width="100%"

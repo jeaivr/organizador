@@ -19,6 +19,12 @@ const Navbar = ({ onLogout }) => {
           Deporte
         </Link>
         <Link
+          to="/alimentacion"
+          className="hover:text-gray-200 transition duration-200"
+        >
+          Alimentacion
+        </Link>
+        <Link
           to="/estudio"
           className="hover:text-gray-200 transition duration-200"
         >

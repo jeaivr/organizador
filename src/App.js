@@ -4,8 +4,8 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import Sport from './components/Sport';
 import Study from './components/Study';
+import Diet from './components/Diet';
 
-const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
@@ -15,11 +15,11 @@ const App = () => {
       setIsAuthenticated(true);
     }
 
-    // Desautenticar después de 30 minutos
+    // Desautenticar después de 2 horas
     const timer = setTimeout(() => {
       localStorage.removeItem('isAuthenticated');
       setIsAuthenticated(false);
-    }, 30 * 60 * 1000); // 30 minutos
+    }, 2 * 60 * 60 * 1000); // 2 horas
 
     // Limpiar el timer cuando el componente se desmonte
     return () => clearTimeout(timer);
@@ -45,6 +45,7 @@ const App = () => {
             {/* Pasar handleLogout como prop al Dashboard */}
             <Route path="/" element={<Dashboard onLogout={handleLogout} />} />
             <Route path="/deporte" element={<Sport onLogout={handleLogout} />} />
+            <Route path="/alimentacion" element={<Diet onLogout={handleLogout} />} />
             <Route path="/estudio" element={<Study onLogout={handleLogout} />} />
           </Routes>
         ) : (
