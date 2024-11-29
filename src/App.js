@@ -6,6 +6,7 @@ import Sport from './components/Sport';
 import Study from './components/Study';
 import Diet from './components/Diet';
 
+const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
