@@ -22,7 +22,7 @@ const Login = ({ onLogin }) => {
     <div className="flex justify-center items-center min-h-screen bg-white/40 shadow-lg">
         {error && <div className="text-red-500 mb-4">{error}</div>} {/* Mensaje de error */}
         <form className="w-96" onSubmit={handleLogin}>
-        <img src={User} alt="profile picture" className="w-32 h-auto mx-auto shadow-lg rounded-full"/>
+        <img src={User} alt="profile" className="w-32 h-auto mx-auto shadow-lg rounded-full"/>
         <label className="block text-xl mx-auto font-black text-center text-gray-700 mt-2 mb-4">Jeaivr</label>
           <div className="mb-4">
             <input
