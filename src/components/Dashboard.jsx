@@ -8,7 +8,8 @@ const Dashboard = ({ onLogout }) => {
       <Navbar onLogout={onLogout} />
       <div className="container mx-auto p-6 mt-16">
         <h1 className="text-3xl font-semibold mb-4">Bienvenido al Dashboard</h1>
-        <p className="text-lg mb-4">Este es tu organizador de estudio</p>
+        <h1 className="text-2xl font-semibold mb-4">Calendario</h1>
+        <h1 className="text-2xl font-semibold mb-4">Registro de peso</h1>
       </div>
     </div>
   );
