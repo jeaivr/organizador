@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard';
 import Sport from './components/Sport';
 import Study from './components/Study';
 import Diet from './components/Diet';
+import Habits from './components/Habits';
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -47,6 +48,7 @@ const App = () => {
             <Route path="/" element={<Dashboard onLogout={handleLogout} />} />
             <Route path="/deporte" element={<Sport onLogout={handleLogout} />} />
             <Route path="/alimentacion" element={<Diet onLogout={handleLogout} />} />
+            <Route path="/habitos" element={<Habits onLogout={handleLogout} />} />
             <Route path="/estudio" element={<Study onLogout={handleLogout} />} />
           </Routes>
         ) : (
