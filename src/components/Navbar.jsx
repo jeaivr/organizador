@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ onLogout }) => {
   return (
-    <div className="bg-orange-400 text-white p-4 flex justify-between items-center shadow-md fixed top-0 left-0 w-full z-50">
+    <div className="bg-orange-500/70 text-white p-4 flex justify-between items-center shadow-md fixed top-0 left-0 w-full z-50">
       <h1 className="text-2xl ml-16 font-bold">jeaivr</h1>
       <div className="space-x-6">
       <Link
