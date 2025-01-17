@@ -3,7 +3,7 @@ import Navbar from './Navbar'; // Importamos la Navbar
 
 const Habits = ({ onLogout }) => {
 
-  const excelUrl = `https://docs.google.com/spreadsheets/d/16yBH_zM6B9mydXAzhfVDN5tFYE8t7w5uIVjFmzfS2Hg/edit?usp=sharing&widget=false&chrome=false&headers=false&rm=demo`
+  const excelUrl = `https://docs.google.com/spreadsheets/d/1nqgXrDgtFl4H5zJSG5G5ijInKyH_AK3G2a6amvlIugY/edit?usp=sharing&widget=false&chrome=false&headers=false&rm=demo`
 
   return (
     <div className="min-h-screen bg-cover bg-login">
@@ -11,8 +11,8 @@ const Habits = ({ onLogout }) => {
         {/* Navbar recibe onLogout */}
         <Navbar onLogout={onLogout} />
         <div className="container mx-auto p-6 pt-32">
-          <h1 className="text-3xl font-semibold mb-4">Habitos</h1>
-          <p className="text-lg mb-4">Este es tu tracker de habitos</p>
+          <h1 className="text-3xl font-semibold mb-4">Wrapped</h1>
+          <p className="text-lg mb-4">A ver si no entramos mucho aquí este 2025</p>
           <iframe
               title="habits"
               width="100%"

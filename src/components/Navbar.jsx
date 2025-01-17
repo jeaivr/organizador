@@ -13,28 +13,22 @@ const Navbar = ({ onLogout }) => {
           Dashboard
         </Link>
         <Link
+          to="/estudio"
+          className="hover:text-gray-200 transition duration-200"
+        >
+          Estudio
+        </Link>
+        <Link
           to="/deporte"
           className="hover:text-gray-200 transition duration-200"
         >
           Deporte
         </Link>
         <Link
-          to="/alimentacion"
+          to="/wrapped"
           className="hover:text-gray-200 transition duration-200"
         >
-          Alimentacion
-        </Link>
-        <Link
-          to="/habitos"
-          className="hover:text-gray-200 transition duration-200"
-        >
-          Habitos
-        </Link>
-        <Link
-          to="/estudio"
-          className="hover:text-gray-200 transition duration-200"
-        >
-          Estudio
+          Wrapped
         </Link>
       </div>
       <button

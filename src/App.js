@@ -2,10 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
-import Sport from './components/Sport';
 import Study from './components/Study';
-import Diet from './components/Diet';
-import Habits from './components/Habits';
+import Sport from './components/Sport';
+import Wrapped from './components/Wrapped';
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -46,10 +45,9 @@ const App = () => {
           <Routes>
             {/* Pasar handleLogout como prop al Dashboard */}
             <Route path="/" element={<Dashboard onLogout={handleLogout} />} />
-            <Route path="/deporte" element={<Sport onLogout={handleLogout} />} />
-            <Route path="/alimentacion" element={<Diet onLogout={handleLogout} />} />
-            <Route path="/habitos" element={<Habits onLogout={handleLogout} />} />
             <Route path="/estudio" element={<Study onLogout={handleLogout} />} />
+            <Route path="/deporte" element={<Sport onLogout={handleLogout} />} />
+            <Route path="/wrapped" element={<Wrapped onLogout={handleLogout} />} />
           </Routes>
         ) : (
           <Login onLogin={handleLogin} />
